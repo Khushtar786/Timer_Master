@@ -13,7 +13,6 @@
 		9BFA156D23E05D3300B1C54A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFA156C23E05D3300B1C54A /* Assets.xcassets */; };
 		9BFA157023E05D3300B1C54A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFA156E23E05D3300B1C54A /* LaunchScreen.storyboard */; };
 		9BFA157A23E05DB700B1C54A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFA157923E05DB700B1C54A /* ViewController.swift */; };
-		9BFA157D23E0603600B1C54A /* TimeRecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFA157C23E0603600B1C54A /* TimeRecordCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		9BFA156F23E05D3300B1C54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BFA157123E05D3300B1C54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BFA157923E05DB700B1C54A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9BFA157C23E0603600B1C54A /* TimeRecordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRecordCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +56,6 @@
 		9BFA156223E05D2400B1C54A /* Timer_Master */ = {
 			isa = PBXGroup;
 			children = (
-				9BFA157B23E05FF600B1C54A /* Cell */,
 				9BFA157723E05D4000B1C54A /* Application */,
 				9BFA157823E05D6600B1C54A /* Controllers */,
 				9BFA156923E05D2400B1C54A /* Main.storyboard */,
@@ -84,14 +81,6 @@
 				9BFA157923E05DB700B1C54A /* ViewController.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		9BFA157B23E05FF600B1C54A /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				9BFA157C23E0603600B1C54A /* TimeRecordCell.swift */,
-			);
-			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,7 +155,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BFA157A23E05DB700B1C54A /* ViewController.swift in Sources */,
-				9BFA157D23E0603600B1C54A /* TimeRecordCell.swift in Sources */,
 				9BFA156423E05D2400B1C54A /* AppDelegate.swift in Sources */,
 				9BFA156623E05D2400B1C54A /* SceneDelegate.swift in Sources */,
 			);
